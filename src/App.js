@@ -7,35 +7,75 @@ function App() {
   const [salesData, setSalesData] = useState([]);
   const [totalSales, setTotalSales] = useState(0);
 
-  // Nuevos productos
-  const printers = [
-    {
+  {
       id: 1,
-      name: "Brother HL-L2350DW",
-      description: "Impresora láser monocromo con conectividad WiFi.",
-      price: 450,
-      image: "/image/brother.jpg"
+      name: "Impresora 3D de resina",
+      description: "Alta precisión para impresiones detalladas con resina UV.",
+      price: 3500,
+      image: "/image/imagen1.png"
     },
     {
       id: 2,
-      name: "Epson Expression Home XP-4100",
-      description: "Compacta, inalámbrica y fácil de usar.",
-      price: 599,
-      image: "/image/epson-xp.jpg"
+      name: "Impresora 3D profesional",
+      description: "Modelo de alta gama para impresión 3D en gran escala.",
+      price: 4800,
+      image: "/image/imagen2.png"
     },
     {
       id: 3,
-      name: "Canon MAXIFY GX6020",
-      description: "Ideal para oficinas pequeñas, imprime grandes volúmenes.",
-      price: 1120,
-      image: "/image/canon-maxify.jpg"
+      name: "Resina UV gris",
+      description: "Resina fotosensible para impresoras 3D de resina.",
+      price: 180,
+      image: "/image/imagen3.png"
     },
     {
       id: 4,
-      name: "Creality Ender 3 V2",
-      description: "Impresora 3D económica y eficiente para principiantes.",
-      price: 1200,
-      image: "/image/creality.jpg"
+      name: "Filamento PLA verde",
+      description: "Carrete de filamento PLA de alta calidad para impresoras FDM.",
+      price: 140,
+      image: "/image/imagen4.png"
+    },
+    {
+      id: 5,
+      name: "Mini dron con control",
+      description: "Dron compacto con cámara y mando a distancia.",
+      price: 620,
+      image: "/image/imagen5.png"
+    },
+    {
+      id: 6,
+      name: "Dron con cámara FPV",
+      description: "Dron con sistema FPV y control profesional.",
+      price: 980,
+      image: "/image/imagen6.png"
+    },
+    {
+      id: 7,
+      name: "Grabadora láser CNC",
+      description: "Máquina láser para grabado y corte de materiales.",
+      price: 2100,
+      image: "/image/imagen7.png"
+    },
+    {
+      id: 8,
+      name: "Auriculares inalámbricos",
+      description: "Audífonos compactos con estuche de carga.",
+      price: 250,
+      image: "/image/imagen8.png"
+    },
+    {
+      id: 9,
+      name: "Gafas de realidad virtual",
+      description: "Compatible con PC y juegos de VR.",
+      price: 1100,
+      image: "/image/imagen9.png"
+    },
+    {
+      id: 10,
+      name: "Filamento flexible azul",
+      description: "Ideal para impresiones elásticas y resistentes.",
+      price: 160,
+      image: "/image/imagen10.png"
     }
   ];
 
